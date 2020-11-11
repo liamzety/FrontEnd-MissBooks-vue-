@@ -1,0 +1,82 @@
+.book-details {
+    color: $darkMain;
+    min-height: 100vh;
+    padding: 20px 0px;
+
+    a {
+        font-size: 1.17em;
+    }
+
+    hr {
+        width: 50%;
+        border: 0;
+        border-bottom: 2px solid #b5b5b5;
+        margin: 25px 0;
+    }
+
+    .sub-text {
+        color: rgb(167,
+                164,
+                164);
+    }
+
+    .container {
+        padding: 0 45px;
+
+        @media (max-width:400px) {
+            padding: 0;
+        }
+    }
+
+
+    .review-list {
+        display: grid;
+        gap: 15px;
+        margin: 15px 0;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .book-details-container {
+        padding: 25px 45px;
+        justify-content: flex-start;
+        background-color: $lightMain;
+        box-shadow: 0 0 5px 0px #3b3838;
+
+        .readmore {
+            align-self: flex-end;
+            cursor: pointer;
+            transition: .3s;
+
+            &:hover {
+                color: darken($darkSec, .9);
+                text-decoration: underline;
+            }
+        }
+
+        @media (max-width:400px) {
+            padding: 15px;
+
+            &.container {
+                width: 100%;
+
+            }
+        }
+
+        .book-info-container {
+            align-self: flex-start;
+
+            img {
+                margin-right: 25px;
+                border: 6px inset #d1d1d1;
+            }
+
+            @media (max-width:400px) {
+                flex-wrap: wrap;
+
+                img {
+                    margin-right: 0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+// BASICS
+@import './basics/variables';
+@import './basics/helpers';
+@import './basics/base';
+@import './basics/typography';
+@import './basics/animations';
+// VIEWS
+@import './views/home';
+@import './views/book-details';
+
+// COMPONENTS
+@import './components/book-header';
+@import './components/book-list';
+@import './components/book-preview';
+
+//MODALS
+@import './modals/onSaleModal';
+@import './modals/screen-modal';

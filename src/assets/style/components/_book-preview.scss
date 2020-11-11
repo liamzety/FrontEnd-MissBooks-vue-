@@ -1,0 +1,27 @@
+.book-preview {
+  padding: 25px;
+  border: 4px #b3b3b3 inset;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: $lightMain;
+  transition: 0.3s;
+  min-height: 400px;
+  justify-content: flex-end;
+
+  &:hover {
+    background-color: darken($lightMain, 25%);
+  }
+
+  .pic {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+}

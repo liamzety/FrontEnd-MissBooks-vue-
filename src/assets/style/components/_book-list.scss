@@ -1,0 +1,15 @@
+.book-list {
+    padding: 25px 0;
+    min-height: 80vh;
+
+    h2 {
+        margin-bottom: 25px;
+    }
+
+    .grid {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+}
