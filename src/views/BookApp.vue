@@ -17,8 +17,8 @@ export default {
       filterBy: {
         title: "",
         minPageRange: "",
-        maxPageRange: ""
-      }
+        maxPageRange: "",
+      },
     };
   },
   async created() {
@@ -28,35 +28,33 @@ export default {
   components: {
     BookList,
     BookHeader,
-    Loader
+    Loader,
   },
   computed: {
     booksToShow() {
-      let booksToShow = this.$store.getters.booksToShow;
+      let books = this.$store.getters.booksToShow;
       const { title, minPageRange, maxPageRange } = this.filterBy;
       if (title) {
-        booksToShow = booksToShow.filter(book =>
-          book.volumeInfo.title.toLowerCase().includes(title.toLowerCase())
-        );
+        books = books.filter(book => book.volumeInfo.title.toLowerCase().includes(title.toLowerCase()) )
       }
       if (minPageRange) {
-        booksToShow = booksToShow.filter(
-          book => book.volumeInfo.pageCount > minPageRange
+        books = books.filter(
+          (book) => book.volumeInfo.pageCount > minPageRange
         );
       }
       if (maxPageRange) {
-        booksToShow = booksToShow.filter(
-          book => book.volumeInfo.pageCount < maxPageRange
+        books = books.filter(
+          (book) => book.volumeInfo.pageCount < maxPageRange
         );
       }
-      return booksToShow;
-    }
+      return books;
+    },
   },
 
   methods: {
     async loadBooks() {
       this.$store.dispatch({ type: "loadBooks" });
-    }
-  }
+    },
+  },
 };
 </script>

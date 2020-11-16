@@ -3,7 +3,7 @@
     <book-header />
 
     <div
-      class="book-details-container container flex justify-center align-center column text-center"
+      class="book-details-container container flex justify-center align-center col text-center"
     >
       <div class="book-info-container flex align-center justify-center ">
         <div class="img-container relative">
@@ -15,9 +15,10 @@
             On Sale!
           </div>
         </div>
-        <div class="book-info flex align-center column">
+        <div class="book-info flex align-center col">
           <h2>{{ book.volumeInfo.title }}</h2>
           <p class="sub-text">{{ book.volumeInfo.subtitle }}</p>
+          
           <p>Authors: {{ book.volumeInfo.authors }}</p>
           <p>Publisher: {{ book.volumeInfo.publisher }}</p>
           <p>

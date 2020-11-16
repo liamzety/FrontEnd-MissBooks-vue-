@@ -2,7 +2,11 @@
   display: flex;
 }
 
-.column {
+.w100 {
+  width: 100%;
+}
+
+.col {
   flex-direction: column;
 }
 
@@ -86,4 +90,9 @@
 .container {
   width: 90%;
   margin: 0 auto;
+
+  @media (max-width:400px) {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }

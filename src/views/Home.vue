@@ -1,5 +1,5 @@
 <template>
-  <section class="home flex justify-center align-center column">
+  <section class="home flex justify-center align-center col">
     <h1>Welcome... home</h1>
     <router-link to="/book"> Go to the shop </router-link>
   </section>

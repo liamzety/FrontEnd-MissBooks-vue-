@@ -1,7 +1,7 @@
 <template >
   <router-link :to="bookDetailLink">
     <div
-      class="book-preview relative flex  align-center column text-center cursor-pointer"
+      class="book-preview relative flex  align-center col text-center cursor-pointer"
       :class="isAnimated ? 'animate__animated animate__bounce' : ''"
       @mouseenter="animate()"
     >

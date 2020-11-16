@@ -1,5 +1,5 @@
 <template>
-  <section class="flex column">
+  <section class="flex col">
     {{ txtToShow }}
     <div class="readmore" v-if="txt.length > 400" @click="toggleBtnTxt">
       {{ btnTxt }}

@@ -6,9 +6,6 @@ export const bookService = {
   searchBooks,
   saveBook,
   addReview,
-  // getBooks
-  // addUser,
-  // removeUser
 };
 
 
@@ -17,206 +14,123 @@ async function query() {
 
     {
       "kind": "books#volume",
-      "id": "Ir_nYbAy7PEC",
-      "etag": "nEeWJY/E8ec",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/Ir_nYbAy7PEC",
+      "id": "-V3ZDwAAQBAJ",
+      "etag": "N8xVWATYHbA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/-V3ZDwAAQBAJ",
       "volumeInfo": {
-        "title": "Liam Knows What To Do When Kids Act Snitty",
-        "subtitle": "Coping When Friends are Tactless",
+        "title": "The Saga of the Witcher",
+        "subtitle": "Blood of Elves, Time of Contempt, Baptism of Fire, The Tower of the Swallow and The Lady of the Lake",
         "authors": [
-          "Jane Whelen-Banks"
+          "Andrzej Sapkowski"
         ],
-        "publisher": "Jessica Kingsley Publishers",
-        "publishedDate": "2008-11-15",
-        "description": "Liam is a very talented boy. He can do lots of neat things, like tricks, tumbles and freaky faces. One day, Liam decided to impress his friend Sarah with a super-duper somersault on the couch. Sara said: 'So?' In Liam Knows What to do When Kids Act Snitty, lovable Liam finds out why his amazing feats of greatness are sometimes met with snide or snitty responses. He learns that when kids are snitty, it does not mean they don't like you, or that your tricks are boring, but that they haven't yet learnt how to be gracious and polite. Vibrant, colourful and lively, this book's positive messages and advice are ideal for young children wanting to understand social situations or how friendships work.",
+        "publisher": "Hachette UK",
+        "publishedDate": "2020-06-11",
+        "description": "Herein lies the main saga of Geralt the Witcher - revered and hated - who holds the line against the monsters plaguing humanity. These five novels make up the bestselling series that inspired the Witcher video games and a major Netflix show. Geralt of Rivia is a Witcher, a man whose magic powers and lifelong training have made him a brilliant fighter and a merciless assassin. Yet he is no ordinary killer: he hunts the vile fiends that ravage the land and attack the innocent. But not everything monstrous-looking is evil; not everything fair is good . . . and in every fairy tale there is a grain of truth. Read the epic Witcher saga now with this eBook boxset, which contains all five novels in the ground-breaking series. Blood of Elves translated by Danusia Stok. Time of Contempt, Baptism of Fire, The Tower of the Swallow, The Lady of the Lake translated by David French. Andrzej Sapkowski, winner of the World Fantasy Lifetime Achievement award, started an international phenomenon with his Witcher series. The Last Wish is the perfect introduction to this one-of-a-kind fantasy world.",
         "industryIdentifiers": [
           {
-            "type": "ISBN_10",
-            "identifier": "1846428726"
+            "type": "ISBN_13",
+            "identifier": "9781473232464"
           },
           {
-            "type": "ISBN_13",
-            "identifier": "9781846428722"
+            "type": "ISBN_10",
+            "identifier": "1473232465"
           }
         ],
         "readingModes": {
           "text": true,
-          "image": true
+          "image": false
         },
-        "pageCount": 32,
-        "printType": "BOOK",
-        "categories": [
-          "Psychology"
-        ],
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": false,
-        "contentVersion": "3.7.6.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=Ir_nYbAy7PEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=Ir_nYbAy7PEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=Ir_nYbAy7PEC&pg=PA5&dq=liam&hl=&cd=1&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=Ir_nYbAy7PEC&dq=liam&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Liam_Knows_What_To_Do_When_Kids_Act_Snit.html?hl=&id=Ir_nYbAy7PEC"
-      },
-      "saleInfo": {
-        "country": "IL",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "IL",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Liam_Knows_What_To_Do_When_Kids_Act_Snit-sample-epub.acsm?id=Ir_nYbAy7PEC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Liam_Knows_What_To_Do_When_Kids_Act_Snit-sample-pdf.acsm?id=Ir_nYbAy7PEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=Ir_nYbAy7PEC&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "In \u003cb\u003eLiam\u003c/b\u003e Knows What To Do When Kids Act Snitty, \u003cb\u003eLiam\u003c/b\u003e eagerly anticipates an \u003cbr\u003e\napplause for his amazing feats, but instead is met with snide and standoffish \u003cbr\u003e\nresponses, often typical of young children. \u003cb\u003eLiam\u003c/b\u003e is perplexed and offended by the\u003cbr\u003e\n&nbsp;..."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "vpu31pgFkqMC",
-      "etag": "Yskec8LJHrw",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/vpu31pgFkqMC",
-      "volumeInfo": {
-        "title": "Liam Goes Poo in the Toilet",
-        "subtitle": "A Story about Trouble with Toilet Training",
-        "authors": [
-          "Jane Whelen-Banks"
-        ],
-        "publisher": "Jessica Kingsley Publishers",
-        "publishedDate": "2008-11-15",
-        "description": "'This is Liam. Every day Liam eats lots of good food. Each time Liam eats, his tummy gets fuller and fuller... and fuller... until Liam's tummy starts to stretch' Successful toilet training is a time of celebration for both parents and child. It marks the end of dirty diapers and a forward step in the development of a child. Fraught with both stress and triumph, the period of toilet training can take from days to months. For a typical child, learning to gain control over the body's internal stimuli can be at best challenging. For many children, however, these internal cues can be overwhelming and confusing, leading to both a frustrating and traumatic toileting experience. Liam Goes Poo in the Toilet illustrates the relationship between eating and excreting. It provides visual instructions on how to 'relax and push'. After much fanfare, Liam finally masters going `poo' in the toilet, and both he and Mum bask in the glory of a job well done.",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_10",
-            "identifier": "1846428742"
-          },
-          {
-            "type": "ISBN_13",
-            "identifier": "9781846428746"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 32,
-        "printType": "BOOK",
-        "categories": [
-          "Psychology"
-        ],
-        "averageRating": 3.5,
-        "ratingsCount": 3,
-        "maturityRating": "NOT_MATURE",
-        "allowAnonLogging": true,
-        "contentVersion": "2.7.7.0.preview.3",
-        "panelizationSummary": {
-          "containsEpubBubbles": false,
-          "containsImageBubbles": false
-        },
-        "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=vpu31pgFkqMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=vpu31pgFkqMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
-        },
-        "language": "en",
-        "previewLink": "http://books.google.com/books?id=vpu31pgFkqMC&pg=PA1&dq=liam&hl=&cd=2&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=vpu31pgFkqMC&dq=liam&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Liam_Goes_Poo_in_the_Toilet.html?hl=&id=vpu31pgFkqMC"
-      },
-      "saleInfo": {
-        "country": "IL",
-        "saleability": "NOT_FOR_SALE",
-        "isEbook": false
-      },
-      "accessInfo": {
-        "country": "IL",
-        "viewability": "PARTIAL",
-        "embeddable": true,
-        "publicDomain": false,
-        "textToSpeechPermission": "ALLOWED",
-        "epub": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Liam_Goes_Poo_in_the_Toilet-sample-epub.acsm?id=vpu31pgFkqMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "pdf": {
-          "isAvailable": true,
-          "acsTokenLink": "http://books.google.com/books/download/Liam_Goes_Poo_in_the_Toilet-sample-pdf.acsm?id=vpu31pgFkqMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
-        },
-        "webReaderLink": "http://play.google.com/books/reader?id=vpu31pgFkqMC&hl=&printsec=frontcover&source=gbs_api",
-        "accessViewStatus": "SAMPLE",
-        "quoteSharingAllowed": false
-      },
-      "searchInfo": {
-        "textSnippet": "\u003cb\u003eLiam\u003c/b\u003e Goes Poo in the Toilet A Story about Trouble with Toilet Training Jane \u003cbr\u003e\nWhelen Banks Jessica Kingsley Publishers London and Philadelphia First \u003cbr\u003e\npublished in 2009 byJessica Kingsley Publishers 116 Pentonville Road. \u003cb\u003eLiam\u003c/b\u003e \u003cbr\u003e\nGoes Poo in&nbsp;..."
-      }
-    },
-    {
-      "kind": "books#volume",
-      "id": "ummLDwAAQBAJ",
-      "etag": "aCXQwA36HlU",
-      "selfLink": "https://www.googleapis.com/books/v1/volumes/ummLDwAAQBAJ",
-      "volumeInfo": {
-        "title": "Saving Liam",
-        "authors": [
-          "Sasha L. Miller"
-        ],
-        "publisher": "Less Than Three Press, LLC",
-        "description": "Leyton lives a quiet, simple life as a prosperous, thriving merchant alongside his twin brother Liam. But that life is shattered when Liam goes missing, and Leyton is told that the only way to save his brother's life is to seduce a king. The task proves to be even more difficult than he feared, not least of all because he finds himself falling for the sad, lonely king he's been sent to manipulate. But it's not long before he's caught, snarled in a deadly tangle of political intrigue and betrayal. And once the traitors are caught and his brother rescued, Leyton must return to face his own execution...",
-        "industryIdentifiers": [
-          {
-            "type": "ISBN_13",
-            "identifier": "9781620044186"
-          },
-          {
-            "type": "ISBN_10",
-            "identifier": "1620044188"
-          }
-        ],
-        "readingModes": {
-          "text": true,
-          "image": true
-        },
-        "pageCount": 415,
+        "pageCount": 2032,
         "printType": "BOOK",
         "categories": [
           "Fiction"
         ],
-        "averageRating": 5,
-        "ratingsCount": 1,
-        "maturityRating": "MATURE",
+        "maturityRating": "NOT_MATURE",
         "allowAnonLogging": true,
-        "contentVersion": "1.1.1.0.preview.3",
+        "contentVersion": "1.2.2.0.preview.2",
         "panelizationSummary": {
           "containsEpubBubbles": false,
           "containsImageBubbles": false
         },
         "imageLinks": {
-          "smallThumbnail": "http://books.google.com/books/content?id=ummLDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
-          "thumbnail": "http://books.google.com/books/content?id=ummLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          "smallThumbnail": "http://books.google.com/books/content?id=-V3ZDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=-V3ZDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
         },
         "language": "en",
-        "previewLink": "http://books.google.com/books?id=ummLDwAAQBAJ&pg=PA67&dq=liam&hl=&cd=3&source=gbs_api",
-        "infoLink": "http://books.google.com/books?id=ummLDwAAQBAJ&dq=liam&hl=&source=gbs_api",
-        "canonicalVolumeLink": "https://books.google.com/books/about/Saving_Liam.html?hl=&id=ummLDwAAQBAJ"
+        "previewLink": "http://books.google.com/books?id=-V3ZDwAAQBAJ&printsec=frontcover&dq=witcher&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=-V3ZDwAAQBAJ&dq=witcher&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Saga_of_the_Witcher.html?hl=&id=-V3ZDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Saga_of_the_Witcher-sample-epub.acsm?id=-V3ZDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=-V3ZDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "These five novels make up the bestselling series that inspired the Witcher video games and a major Netflix show."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Z6GBDwAAQBAJ",
+      "etag": "GstjfI4rZ10",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Z6GBDwAAQBAJ",
+      "volumeInfo": {
+        "title": "The Witcher: Of Flesh and Flame #4",
+        "authors": [
+          "Aleksandra Motyka"
+        ],
+        "publisher": "Dark Horse Comics (Single Issues)",
+        "publishedDate": "2019-04-03",
+        "description": "Searching for a way to save Geralt from death at the hands of the Ofieri for a crime he did not commit, Dandelion attempts to resolve the conflict in his own mischievous way. Meanwhile, while Radeyah begins to assume that she is safe, there are unforeseen consequences for her actions waiting just around the corner to strike. Featuring one of the most popular video-game series from hit studio CD Projekt Red! A new series featuring fan-favorite characters, including Geralt and Dandelion!",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:3004198"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 32,
+        "printType": "BOOK",
+        "categories": [
+          "Comics & Graphic Novels"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "comicsContent": true,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Z6GBDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Z6GBDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=Z6GBDwAAQBAJ&pg=PP1&dq=witcher&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=Z6GBDwAAQBAJ&dq=witcher&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Witcher_Of_Flesh_and_Flame_4.html?hl=&id=Z6GBDwAAQBAJ"
       },
       "saleInfo": {
         "country": "IL",
@@ -230,17 +144,632 @@ async function query() {
         "publicDomain": false,
         "textToSpeechPermission": "ALLOWED",
         "epub": {
-          "isAvailable": true
+          "isAvailable": false
         },
         "pdf": {
-          "isAvailable": true
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Witcher_Of_Flesh_and_Flame_4-sample-pdf.acsm?id=Z6GBDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
         },
-        "webReaderLink": "http://play.google.com/books/reader?id=ummLDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "webReaderLink": "http://play.google.com/books/reader?id=Z6GBDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
         "accessViewStatus": "SAMPLE",
         "quoteSharingAllowed": false
       },
       "searchInfo": {
-        "textSnippet": "&quot;Hi,&quot; \u003cb\u003eLiam\u003c/b\u003e said, sidling up to the bar. He looked much worse for the wear up close\u003cbr\u003e\n. He set a hand on Shakil&#39;s arm, smiling flirtatiously at him as tendrils of \u003cbr\u003e\nenchantment tried to hook into him. Shakil&#39;s eyebrows rose—he hadn&#39;t had to \u003cbr\u003e\nplay along&nbsp;..."
+        "textSnippet": "Searching for a way to save Geralt from death at the hands of the Ofieri for a crime he did not commit, Dandelion attempts to resolve the conflict in his own mischievous way."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "HUl2DwAAQBAJ",
+      "etag": "hIahYOXd1uk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HUl2DwAAQBAJ",
+      "volumeInfo": {
+        "title": "Witcher: Of Flesh and Flame #2",
+        "authors": [
+          "Aleksandra Motyka"
+        ],
+        "publisher": "Dark Horse Comics (Single Issues)",
+        "publishedDate": "2019-01-23",
+        "description": "After arriving in an enigmatic location by mistake, and being forced to hide their identities, Geralt and Dandelion find themselves faced with an impossible task. Concurrently, Geralt's attention is drawn to a series of strange episodes surrounding the King's concubines. Will the duo be able to solve the palace's dilemma, as well as their own, and secure their safety and freedom?",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:3004196"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 32,
+        "printType": "BOOK",
+        "categories": [
+          "Comics & Graphic Novels"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "comicsContent": true,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=HUl2DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=HUl2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=HUl2DwAAQBAJ&pg=PP1&dq=witcher&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=HUl2DwAAQBAJ&dq=witcher&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Witcher_Of_Flesh_and_Flame_2.html?hl=&id=HUl2DwAAQBAJ",
+        "seriesInfo": {
+          "kind": "books#volume_series_info",
+          "bookDisplayNumber": "2",
+          "volumeSeries": [
+            {
+              "seriesId": "mdkgGwAAABC4wM",
+              "seriesBookType": "ISSUE",
+              "orderNumber": 2
+            }
+          ]
+        }
+      },
+      "saleInfo": {
+        "country": "IL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Witcher_Of_Flesh_and_Flame_2-sample-pdf.acsm?id=HUl2DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=HUl2DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "After arriving in an enigmatic location by mistake, and being forced to hide their identities, Geralt and Dandelion find themselves faced with an impossible task."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "eGraDwAAQBAJ",
+      "etag": "PAGlduD9sww",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/eGraDwAAQBAJ",
+      "volumeInfo": {
+        "title": "The Complete Witcher",
+        "subtitle": "The Last Wish, Sword of Destiny, Blood of Elves, Time of Contempt, Baptism of Fire, The Tower of the Swallow, The Lady of the Lake and Seasons of Storms",
+        "authors": [
+          "Andrzej Sapkowski"
+        ],
+        "publisher": "Hachette UK",
+        "publishedDate": "2020-10-15",
+        "description": "Experience the story from start to finish. Get every single book following the exploits of Geralt the Witcher - revered and hated - who holds the line against the monsters plaguing humanity. These eight books are a comprehensive collection of the books that inspired a bestselling video game and the major Netflix series. Geralt of Rivia is a Witcher, a man whose magic powers and lifelong training have made him a brilliant fighter and a merciless assassin. Yet he is no ordinary killer: he hunts the vile fiends that ravage the land and attack the innocent. But not everything monstrous-looking is evil; not everything fair is good . . . and in every fairy tale there is a grain of truth. Read the epic Witcher saga from start to finish with this eBook boxset, which contains all eight books in the ground-breaking series. The Last Wish, Blood of Elves translated by Danusia Stok. Sword of Destiny, Time of Contempt, Baptism of Fire, The Tower of the Swallow, The Lady of the Lake, Season of Storms translated by David French. Andrzej Sapkowski, winner of the World Fantasy Lifetime Achievement award, started an international phenomenon with his Witcher series. The Last Wish is the perfect introduction to this one-of-a-kind fantasy world.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781473232488"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1473232481"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 2928,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=eGraDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=eGraDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=eGraDwAAQBAJ&pg=PT548&dq=witcher&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=eGraDwAAQBAJ&dq=witcher&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Complete_Witcher.html?hl=&id=eGraDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Complete_Witcher-sample-epub.acsm?id=eGraDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=eGraDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "You delight in the contempt you can show the \u003cb\u003eWitcher\u003c/b\u003e, who is prepared to risk his \u003cbr\u003e\nneck for your money. You should know the \u003cb\u003eWitcher\u003c/b\u003e mocks your contempt and \u003cbr\u003e\nslights, that they do not make the faintest impression on him. He doesn&#39;t even&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Vx7YDwAAQBAJ",
+      "etag": "x2dn+Fn+BMw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Vx7YDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Introducing The Witcher",
+        "subtitle": "The Last Wish, Sword of Destiny and Blood of Elves",
+        "authors": [
+          "Andrzej Sapkowski"
+        ],
+        "publisher": "Hachette UK",
+        "publishedDate": "2020-05-14",
+        "description": "Introducing Geralt the Witcher - revered and hated - who holds the line against the monsters plaguing humanity in the bestselling series that inspired the Witcher video games and a major Netflix show. Geralt of Rivia is a Witcher, a man whose magic powers and lifelong training have made him a brilliant fighter and a merciless assassin. Yet he is no ordinary killer: he hunts the vile fiends that ravage the land and attack the innocent. But not everything monstrous-looking is evil; not everything fair is good . . . and in every fairy tale there is a grain of truth. Start the epic journey now with this eBook boxset, containing the very first stories set in the witcher world, plus the opening novel to Andrzej Sapkowski's groundbreaking series. Translated by Danusia Stok. Andrzej Sapkowski, winner of the World Fantasy Lifetime Achievement award, started an international phenomenon with his Witcher series. The Last Wish is the perfect introduction to this one-of-a-kind fantasy world.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781473232426"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1473232422"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 1008,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Vx7YDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Vx7YDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=Vx7YDwAAQBAJ&pg=PT483&dq=witcher&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=Vx7YDwAAQBAJ&dq=witcher&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Introducing_The_Witcher.html?hl=&id=Vx7YDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Introducing_The_Witcher-sample-epub.acsm?id=Vx7YDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Vx7YDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "You delight in the contempt you can show the \u003cb\u003eWitcher\u003c/b\u003e, who is prepared to risk his \u003cbr\u003e\nneck for your money. You should know the \u003cb\u003eWitcher\u003c/b\u003e mocks your contempt and \u003cbr\u003e\nslights, that they do not make the faintest impression on him. He doesn&#39;t even&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "AcJyDwAAQBAJ",
+      "etag": "Jb1hEhxbzuY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/AcJyDwAAQBAJ",
+      "volumeInfo": {
+        "title": "The Witcher Library Edition Volume 1",
+        "authors": [
+          "Paul Tobin"
+        ],
+        "publishedDate": "2018",
+        "description": "\"The Witcher game is based on a novel of Andrzej Sapkowski.\"",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781506706825"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1506706827"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 440,
+        "printType": "BOOK",
+        "categories": [
+          "COMICS & GRAPHIC NOVELS"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": true,
+          "imageBubbleVersion": "32e821684680ba91_A"
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=AcJyDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=AcJyDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=AcJyDwAAQBAJ&pg=PA4&dq=witcher&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=AcJyDwAAQBAJ&dq=witcher&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Witcher_Library_Edition_Volume_1.html?hl=&id=AcJyDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=AcJyDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The \u003cb\u003eWitcher\u003c/b\u003e game is based on a novel of Andrzej Sapkowski THE \u003cb\u003eWITCHER\u003c/b\u003e: \u003cbr\u003e\nLIBRARY EDITION WOLUME ONE THE \u003cb\u003eWITCHER\u003c/b\u003e&quot; is a trademark of CD Projekt \u003cbr\u003e\nS.A. The \u003cb\u003eWitcher\u003c/b\u003e game Ø2014, 2015, 2017, 2018 CD Projekt S.A. Alrights \u003cbr\u003e\nreserved."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "_o7iCgAAQBAJ",
+      "etag": "06mEg2cQuy0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/_o7iCgAAQBAJ",
+      "volumeInfo": {
+        "title": "The Witcher - Strategy Guide",
+        "authors": [
+          "GamerGuides.com"
+        ],
+        "publisher": "Gamer Guides",
+        "publishedDate": "2015-11-07",
+        "description": "You are Geralt of Rivia, a professional monster-hunter known as a Witcher. Or at least you were. Mysteriously back from the dead and haunted by the King of the Wild Hunt, you have no memories of your previous life. While wintering at the weathered fortress of Kaer Morhen with friends from your forgotten former life, you come under attack by a mysterious organization, after which you set out on a quest for revenge. Along the way you'll reunite with old, unremembered friends and get swept up in a power struggle between diametrically opposed factions. The guide offers the following: - \"The Witchers Three\" covers all the moral choices in The Witcher. - A full walkthrough that's more than just a listing of quests - it's an \"ideal chronological order\". - A detailed conclusion discussing the ending of the game. - Notes on how your choices in The Witcher will carry over to The Witcher 2. - All the side quests in the game, including free-form quests, notice board quests, trophy hunts. - Information on how to become the best fist-fighter and Dice Poker player in the land. - Character creation information, including the best places to grind, how to spend your talents and much more. - Information on how to obtain all the Sex Cards in the game, you frisky person, you! - All the potion, oil, and bomb fomulae in the game.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781631024023"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1631024027"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Games"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.3.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=_o7iCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=_o7iCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=_o7iCgAAQBAJ&pg=PT47&dq=witcher&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=_o7iCgAAQBAJ&dq=witcher&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Witcher_Strategy_Guide.html?hl=&id=_o7iCgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Witcher_Strategy_Guide-sample-epub.acsm?id=_o7iCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Witcher_Strategy_Guide-sample-pdf.acsm?id=_o7iCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=_o7iCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Level Bronze Talents Silver Talents Gold Talents Title 1-10 3 0 0 Novitate \u003cb\u003eWitcher\u003c/b\u003e \u003cbr\u003e\n11- 14 3 0 0 Rising \u003cb\u003eWitcher\u003c/b\u003e 15- 19 3 1 0 Rising \u003cb\u003eWitcher\u003c/b\u003e 20- 29 2 2 0 Skilled \u003cbr\u003e\n\u003cb\u003eWitcher\u003c/b\u003e 30- 39 1 2 1 Seasoned \u003cb\u003eWitcher\u003c/b\u003e 40- 44 1 3 1 Master \u003cb\u003eWitcher\u003c/b\u003e 45- 48 0 4 1\u003cbr\u003e\n&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "RVCCDwAAQBAJ",
+      "etag": "V6hPhH+Tqls",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/RVCCDwAAQBAJ",
+      "volumeInfo": {
+        "title": "The Witcher: Of Flesh and Flame #3",
+        "authors": [
+          "Aleksandra Motyka"
+        ],
+        "publisher": "Dark Horse Comics (Single Issues)",
+        "publishedDate": "2019-02-20",
+        "description": "Features fan-favorite characters Geralt and Dandelion! Another mysterious incident looms heavy over Ofier, threatening the king. To help combat it, Geralt works side by side with Radeyah to pro- cure and construct weapons strong enough to defeat the dark force. However, there are more nemeses than Geralt quite realizes, and a confrontation in which he believes himself to be helping only leads to more trouble for the witcher.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:3004197"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 32,
+        "printType": "BOOK",
+        "categories": [
+          "Comics & Graphic Novels"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "comicsContent": true,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=RVCCDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=RVCCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=RVCCDwAAQBAJ&printsec=frontcover&dq=witcher&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=RVCCDwAAQBAJ&dq=witcher&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Witcher_Of_Flesh_and_Flame_3.html?hl=&id=RVCCDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/The_Witcher_Of_Flesh_and_Flame_3-sample-pdf.acsm?id=RVCCDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=RVCCDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Features fan-favorite characters Geralt and Dandelion!"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "VBQDEAAAQBAJ",
+      "etag": "tANo9WM+oyI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VBQDEAAAQBAJ",
+      "volumeInfo": {
+        "title": "The Witcher: Fading Memories #1",
+        "authors": [
+          "Bartosz Sztybor"
+        ],
+        "publisher": "Dark Horse Comics (Single Issues)",
+        "publishedDate": "2020-11-25",
+        "description": "Geralt has become impoverished and dejected since monster threats have seemingly vanished. Times have always been hard for Witchers--but without continual work, his situation has worsened. As Geralt explores new possibilities for his life path, he receives a request from the Mayor of Towitz, a small town where children are being kidnapped by Foglets . . . but something feels off about this new threat. Explore the world of The Witcher beyond the games! A brand-new series featuring the game's iconic protagonist, Geralt! Now a Netflix original series!",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:3006177"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 32,
+        "printType": "BOOK",
+        "categories": [
+          "Comics & Graphic Novels"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": true,
+          "imageBubbleVersion": "722af3116b6f0ef2_A"
+        },
+        "comicsContent": true,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VBQDEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VBQDEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=VBQDEAAAQBAJ&dq=witcher&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=VBQDEAAAQBAJ&dq=witcher&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Witcher_Fading_Memories_1.html?hl=&id=VBQDEAAAQBAJ",
+        "seriesInfo": {
+          "kind": "books#volume_series_info",
+          "bookDisplayNumber": "1",
+          "volumeSeries": [
+            {
+              "seriesId": "MvErGwAAABAY6M",
+              "seriesBookType": "ISSUE",
+              "orderNumber": 1
+            }
+          ]
+        }
+      },
+      "saleInfo": {
+        "country": "IL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=VBQDEAAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Geralt has become impoverished and dejected since monster threats have seemingly vanished."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "zNlzDwAAQBAJ",
+      "etag": "ShmW/+TOM68",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zNlzDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Witcher: Of Flesh and Flame #1",
+        "authors": [
+          "Aleksandra Motyka"
+        ],
+        "publisher": "Dark Horse Comics (Single Issues)",
+        "publishedDate": "2018-12-19",
+        "description": "Geralt is summoned by an old friend to help solve a mystery involving his daughter. Upon arriving to investigate however, Geralt is surprised by another friend from the past and he soon finds himself transported to regions beyond his original expectations. A new series featuring fan-favorite characters, including Geralt and Dandelion! The first issue of a new miniseries, the perfect jumping-on point!",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PKEY:3004195"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 32,
+        "printType": "BOOK",
+        "categories": [
+          "Comics & Graphic Novels"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "comicsContent": true,
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=zNlzDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=zNlzDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=zNlzDwAAQBAJ&printsec=frontcover&dq=witcher&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=zNlzDwAAQBAJ&dq=witcher&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Witcher_Of_Flesh_and_Flame_1.html?hl=&id=zNlzDwAAQBAJ",
+        "seriesInfo": {
+          "kind": "books#volume_series_info",
+          "bookDisplayNumber": "1",
+          "volumeSeries": [
+            {
+              "seriesId": "mdkgGwAAABC4wM",
+              "seriesBookType": "ISSUE",
+              "orderNumber": 1
+            }
+          ]
+        }
+      },
+      "saleInfo": {
+        "country": "IL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/Witcher_Of_Flesh_and_Flame_1-sample-pdf.acsm?id=zNlzDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zNlzDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Geralt is summoned by an old friend to help solve a mystery involving his daughter."
       }
     }
   ]
@@ -306,18 +835,3 @@ function _makeid(length = 10) {
 
   return text;
 }
-// function addUser(user) {
-//   gUsers = [
-//     {
-//       name: user.name,
-//       id: "u4"
-//     },
-//     ...gUsers
-//   ];
-//   return gUsers;
-// }
-
-// function removeUser(userId) {
-//   gUsers = gUsers.filter(user => userId !== user.id);
-//   return gUsers;
-// }

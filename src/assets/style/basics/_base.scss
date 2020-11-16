@@ -15,6 +15,24 @@ ul {
   padding: 0;
 }
 
+input,
+textarea {
+  background-color: transparent;
+  border: 2px solid $lightMain;
+  padding: 5px;
+
+  &:focus {
+    filter: brightness(115%);
+  }
+}
+
+input:not([type="date"]) {
+  border: none;
+  border-bottom: 2px solid $lightMain;
+}
+
+
+
 img {
   object-fit: cover;
 }
@@ -26,8 +44,16 @@ a {
   transition: 0.3s;
 
   &:hover {
-    filter: brightness(75%);
+    filter: brightness(115%);
   }
+}
+
+label {
+  font-weight: 700;
+}
+
+::placeholder {
+  color: rgba($lightMain, 0.85);
 }
 
 h1 {
@@ -49,14 +75,20 @@ p {
 button {
   cursor: pointer;
   transition: 0.3s;
+  background: transparent;
+  border: 2px solid #d3d3d3;
+  color: #d3d3d3;
+  padding: 5px;
+  font-size: 20px;
 
   &:hover {
-    filter: brightness(75%);
+    filter: brightness(115%);
   }
 }
 
 .bg-wrapper {
-  background-color: #82828273;
+  background-color: #898989ad;
+  ;
   width: 100%;
   height: 100%;
   position: fixed;

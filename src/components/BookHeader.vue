@@ -1,8 +1,8 @@
 <template>
   <header class="book-header flex justify-center align-center">
-    <div v-if="filterBy" class="container flex wrap column">
+    <div v-if="filterBy" class="container flex wrap col">
       <h1>Miss Books</h1>
-      <form class="grid">
+      <form class="flex space-between wrap">
         <h3>Filter books</h3>
         <input v-model="filterBy.title" type="text" placeholder="By name" />
         <input
@@ -38,7 +38,7 @@
 
     <div v-else class="container">
       <h1>Miss Books</h1>
-      <router-link to="/book">
+      <router-link to="/">
         go back
       </router-link>
     </div>

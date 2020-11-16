@@ -1,12 +1,12 @@
 <template>
-  <section class="review-add flex justify-center align-center column">
+  <section class="review-add container flex justify-center align-center col">
     <h2>Add a review</h2>
     <form
-      class="flex justify-center align-center column"
+      class="flex space-between align-center col w100"
       @submit.prevent="onSubmit"
     >
-      <div class="flex justify-center review-col column">
-        <div class=" review- flex align-center space-between">
+      <div class="flex review-details wrap w100">
+        <div class="label-input-container flex col">
           <label for="reviewerName">Your name</label>
           <input
             required
@@ -15,24 +15,16 @@
             ref="nameInput"
             type="text"
             name="name"
-            placeholder="Full Name"
             autocomplete="off"
           />
         </div>
-
-        <div class="flex align-center space-between">
+        <div class="label-input-container flex col">
+          <label for="">Rate:</label>
+          <stars @onRate="onRate"></stars>
+        </div>
+        <div class="label-input-container flex col">
           <label for="datepicker">Finished reading at:</label>
           <input id="datepicker" v-model="input.date" name="date" type="date" />
-        </div>
-        <div class="flex align-center space-between">
-          <label>Rating</label>
-          <div class="flex justify-center align-center">
-            <font-awesome-icon @click="onRate('1')" icon="star" />
-            <font-awesome-icon @click="onRate('2')" icon="star" />
-            <font-awesome-icon @click="onRate('3')" icon="star" />
-            <font-awesome-icon @click="onRate('4')" icon="star" />
-            <font-awesome-icon @click="onRate('5')" icon="star" />
-          </div>
         </div>
       </div>
       <textarea
@@ -49,7 +41,10 @@
 
 <script>
 import eventBus from "@/service/eventBusService";
+import Stars from "@/components/Stars";
+
 export default {
+  components: { Stars },
   mounted() {
     this.$refs.nameInput.focus();
   },
@@ -59,8 +54,8 @@ export default {
         name: "",
         date: "",
         rating: "",
-        desc: ""
-      }
+        desc: "",
+      },
     };
   },
   methods: {
@@ -71,23 +66,51 @@ export default {
       const review = { ...this.input };
       this.$emit("addReview", review);
       eventBus.$emit("showMsg", "added review");
-    }
-  }
+    },
+  },
 };
 </script>
 <style lang="scss" >
 .review-add {
-  margin: 60px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  h2 {
+    margin-bottom: 25px;
+  }
+
   form {
-    .review-col {
-      padding: 30px 0;
+    .review-details {
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+      align-items: baseline;
+      div {
+        * {
+          margin-bottom: 10px;
+        }
+      }
+      .rating {
+        cursor: pointer;
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        > span:hover:before,
+        > span:hover ~ span:before {
+          content: "\2605";
+          position: absolute;
+        }
+      }
     }
     textarea {
       width: 100%;
+      resize: none;
+      height: 100px;
     }
     button {
+      margin-top: 20px;
       align-self: flex-end;
     }
+  }
+  @media (max-width: 400px) {
+    text-align: center;
   }
 }
 </style>
